@@ -1,0 +1,122 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+
+    
+}
+
+.header{
+    width: 100%;
+    background:rgba(230, 16, 184, 0.765) ;
+}
+
+/*NAVBAR*/
+
+.navbar-nav {
+  padding: 0.5rem 1rem;
+  
+}
+
+.nav-item{
+    margin: 0px 4px;
+}
+
+.nav-item.nav-link{
+    color: honeydew;
+    font-weight: 800;
+    font-size: 50px;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+a{
+    color: var(--link-color);
+}
+
+.heading_sm{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 22px 0px;
+}
+
+.heading_lg{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 22px 0px;
+    letter-spacing: 1px;
+}
+.heading_lg span{
+    color:rgba(209, 13, 166, 0.765);
+}
+
+
+/*HERO-SECTION*/
+
+.Hero-Section{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    margin: 50px 0;
+    margin-bottom: 100px;
+    align-items: center;
+
+}
+.Hero-Section .text{
+    flex: 2;
+}
+.Hero-Section .headshot{
+    flex: 1;
+    display: flex;
+    justify-content: right;
+}
+
+.img_Accueil {
+  width: 400px;
+  border-radius: 50%;
+}
+
+/*PROJECTS SECTION*/
+.card-img-top {
+  height: 350px;  /*Harmonise la taille des images pour tous les projets*/
+  object-fit: cover; 
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn-primary {
+  box-shadow: none;
+  outline: none;
+  border-color: rgba(209, 13, 166, 0.765);
+}
+.btn-primary:hover {
+  box-shadow: rgba(110, 4, 55, 0.537);
+  outline: none;
+  border-color: rgba(109, 3, 86, 0.765);
+}
+.about{
+    font-size: large;
+}
+
+
+
